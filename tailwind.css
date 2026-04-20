@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* =========================
+   BASE RESET EXTENDIDO
+========================= */
+@layer base {
+  button,
+  input,
+  select,
+  textarea {
+    @apply appearance-none bg-transparent border-0 outline-none;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+}
+
+/* =========================
+   UTILIDADES PERSONALIZADAS
+========================= */
+@layer components {
+  .all-unset {
+    all: unset;
+  }
+}
+
+/* =========================
+   VARIABLES GLOBALES
+========================= */
+:root {
+  --akiandemma-com-eb-garamond-medium-font-family: "EB Garamond", Helvetica;
+  --akiandemma-com-eb-garamond-medium-font-size: 44px;
+  --akiandemma-com-eb-garamond-medium-font-style: normal;
+  --akiandemma-com-eb-garamond-medium-font-weight: 500;
+  --akiandemma-com-eb-garamond-medium-letter-spacing: 0px;
+  --akiandemma-com-eb-garamond-medium-line-height: 39.6px;
+
+  --akiandemma-com-eb-garamond-medium-italic-underline-font-family: "EB Garamond", Helvetica;
+  --akiandemma-com-eb-garamond-medium-italic-underline-font-size: 44px;
+  --akiandemma-com-eb-garamond-medium-italic-underline-font-style: italic;
+  --akiandemma-com-eb-garamond-medium-italic-underline-font-weight: 500;
+  --akiandemma-com-eb-garamond-medium-italic-underline-letter-spacing: 0px;
+  --akiandemma-com-eb-garamond-medium-italic-underline-line-height: 39.6px;
+
+  --akiandemma-com-inter-medium-font-family: "Inter", Helvetica;
+  --akiandemma-com-inter-medium-font-size: 14.8px;
+  --akiandemma-com-inter-medium-font-style: normal;
+  --akiandemma-com-inter-medium-font-weight: 500;
+  --akiandemma-com-inter-medium-letter-spacing: -0.15px;
+  --akiandemma-com-inter-medium-line-height: 15px;
+
+  --akiandemma-com-inter-medium-underline-font-family: "Inter", Helvetica;
+  --akiandemma-com-inter-medium-underline-font-size: 14.6px;
+  --akiandemma-com-inter-medium-underline-font-style: normal;
+  --akiandemma-com-inter-medium-underline-font-weight: 500;
+  --akiandemma-com-inter-medium-underline-letter-spacing: -0.15px;
+  --akiandemma-com-inter-medium-underline-line-height: 15px;
+
+  --akiandemma-com-space-grotesk-regular-font-family: "Space Grotesk", Helvetica;
+  --akiandemma-com-space-grotesk-regular-font-size: 9px;
+  --akiandemma-com-space-grotesk-regular-font-style: normal;
+  --akiandemma-com-space-grotesk-regular-font-weight: 400;
+  --akiandemma-com-space-grotesk-regular-letter-spacing: 0px;
+  --akiandemma-com-space-grotesk-regular-line-height: 9px;
+
+  --akiandemma-com-space-grotesk-regular-underline-font-family: "Space Grotesk", Helvetica;
+  --akiandemma-com-space-grotesk-regular-underline-font-size: 16px;
+  --akiandemma-com-space-grotesk-regular-underline-font-style: normal;
+  --akiandemma-com-space-grotesk-regular-underline-font-weight: 400;
+  --akiandemma-com-space-grotesk-regular-underline-letter-spacing: 0px;
+  --akiandemma-com-space-grotesk-regular-underline-line-height: 19.2px;
+}
